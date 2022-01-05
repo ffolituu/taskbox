@@ -22,10 +22,10 @@ const AppStateSlice = createSlice({
  * Usually, you would fetch this from a server.
  */
 const defaultTasks = [
-  { id: "1", title: "Something", state: "TASK_INBOX" },
-  { id: "2", title: "Something more", state: "TASK_INBOX" },
-  { id: "3", title: "Something else", state: "TASK_INBOX" },
-  { id: "4", title: "Something again", state: "TASK_INBOX" },
+  { id: "1", title: "Tâche", state: "TASK_INBOX" },
+  { id: "2", title: "Tâche more", state: "TASK_INBOX" },
+  { id: "3", title: "Tâche else", state: "TASK_INBOX" },
+  { id: "4", title: "Tâche again", state: "TASK_INBOX" },
 ];
 
 /*
