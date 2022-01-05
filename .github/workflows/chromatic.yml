@@ -12,10 +12,8 @@ jobs:
     # Job steps
     steps:
       - uses: actions/checkout@v1
-      - name: Install dependencies
       - run: yarn
         #👇 Adds Chromatic as a step in the workflow
-      - name: Publis to Chromatic
       - uses: chromaui/action@v1
         # Options required for Chromatic's GitHub Action
         with:
