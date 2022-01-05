@@ -11,8 +11,8 @@ jobs:
     runs-on: ubuntu-latest
     # Job steps
     steps:
-      - name: Install dependencies
       - uses: actions/checkout@v1
+      - name: Install dependencies
       - run: yarn
         #👇 Adds Chromatic as a step in the workflow
       - name: Publis to Chromatic
